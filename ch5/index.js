@@ -117,6 +117,8 @@ class TaskQueuePC {
 }
 
 // Exercise 5.4
+
+// Needed help with implementing w/o Promise.all(): https://github.com/kasymbayaman/node.js-design-patterns-solutions/blob/main/05-promises-async-patterns/5.4-async-map.js
 async function mapAsync(iterable, callback, concurrency) {
     let id = 0
     let running = 0
